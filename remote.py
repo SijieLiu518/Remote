@@ -40,9 +40,9 @@ class Remote:
 
 
 if __name__ == '__main__':    
-    hostname = '10.177.58.67'
-    username = 'videt'
-    password = 'videt'
+    hostname = ''
+    username = ''
+    password = ''
     commands = 'cd lsj_SR/Restormer; \
                 rm demo/Deraining/restored/Deraining/Rain100H-62-input.png; \
                 nohup /home/videt/miniconda3/envs/pytorch181/bin/python demo.py --task Deraining --input_dir demo/Deraining/degraded --result_dir demo/Deraining/restored > output.log 2>&1 &'
